@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import { useState, useRef, useEffect } from 'react'
-import { allContent } from '../data/movies'
+import { allContent } from '../data/movies' 
 
 export default function Watch() {
   const { id } = useParams()
